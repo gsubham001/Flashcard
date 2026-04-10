@@ -51,7 +51,7 @@ npm run dev
 
 ## API
 
-### `POST /api/generate-flashcards`
+### `POST /api/generate-flashcards.`
 
 Form data:
 - `pdf`: PDF file upload
@@ -75,3 +75,5 @@ Response:
 - Mark card as `Got It ✅` to count it as mastered.
 - Mark card as `Need Practice 🔁` to push it to the end of the queue.
 - When queue ends, SmartCards shows final mastery score.
+
+Live demo: https://flashcard-xi-mauve.vercel.app/
